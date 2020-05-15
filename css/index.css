@@ -93,7 +93,6 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: solid 2px red;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -129,9 +128,17 @@ h4 {
   color: darkslategray;
   font-weight: 700;
 }
+body {
+  background-color: lightskyblue;
+  background-image: url(https://images.unsplash.com/photo-1542231624-979f1e683a15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .main-container {
   width: 60%;
   margin: 0 auto;
+  background-color: burlywood;
 }
 .main-container .title-container {
   display: flex;
@@ -143,6 +150,7 @@ h4 {
   width: 650px;
   margin: 0 auto;
   align-items: center;
+  margin-bottom: 4%;
 }
 .main-container .title-container h1 {
   text-align: center;
@@ -161,6 +169,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 4%;
 }
 .main-container .artists-container .artist {
   display: flex;
@@ -179,11 +188,12 @@ h4 {
   font-weight: 700;
   margin: 0.2%;
   padding: 0 1.2%;
-  margin: 4.5%;
+  margin: 1.2%;
 }
 .main-container .artists-container .artist .bio {
   text-align: center;
   font-size: 12.7px;
+  padding: 5%;
 }
 @font-face {
   font-family: 'Arimo';
