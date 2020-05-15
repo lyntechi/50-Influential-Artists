@@ -1,11 +1,11 @@
 .font-styles {
-  color: darkslategray;
+  color: white;
   font-weight: 700;
 }
 .a-style {
   text-decoration: none;
   font-size: 1.4rem;
-  color: darkslategray;
+  color: white;
   font-weight: 700;
   margin: 0.2%;
   padding: 0 1.2%;
@@ -111,34 +111,36 @@ header nav {
 header nav a {
   text-decoration: none;
   font-size: 1.4rem;
-  color: darkslategray;
+  color: white;
   font-weight: 700;
   margin: 0.2%;
   padding: 0 1.2%;
 }
 header nav a:nth-child(2) {
-  border-right: 2px solid darkslategray;
-  border-left: 2px solid darkslategray;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 body,
 html,
 h2,
 h3,
 h4 {
-  color: darkslategray;
+  color: white;
   font-weight: 700;
 }
 body {
   background-color: lightskyblue;
-  background-image: url(https://images.unsplash.com/photo-1542231624-979f1e683a15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+  background-image: url(https://images.unsplash.com/photo-1588197752875-bf4437cfbef8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+  font-weight: 700;
 }
 .main-container {
   width: 60%;
   margin: 0 auto;
-  background-color: burlywood;
+  background-color: darkgoldenrod;
 }
 .main-container .title-container {
   display: flex;
@@ -170,6 +172,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 4%;
+  color: white;
+  font-weight: 700;
 }
 .main-container .artists-container .artist {
   display: flex;
@@ -184,7 +188,7 @@ body {
 .main-container .artists-container .artist a {
   text-decoration: none;
   font-size: 1.4rem;
-  color: darkslategray;
+  color: white;
   font-weight: 700;
   margin: 0.2%;
   padding: 0 1.2%;
