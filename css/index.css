@@ -1,4 +1,194 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+.font-styles {
+  color: darkslategray;
+  font-weight: 700;
+}
+.a-style {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: darkslategray;
+  font-weight: 700;
+  margin: 0.2%;
+  padding: 0 1.2%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: solid 2px red;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header {
+  display: flex;
+  justify-content: center ;
+  width: 100%;
+}
+header nav {
+  padding: 5%;
+  margin: 2%;
+  width: 100%;
+  text-align: center;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: darkslategray;
+  font-weight: 700;
+  margin: 0.2%;
+  padding: 0 1.2%;
+}
+header nav a:nth-child(2) {
+  border-right: 2px solid darkslategray;
+  border-left: 2px solid darkslategray;
+}
+body,
+html,
+h2,
+h3,
+h4 {
+  color: darkslategray;
+  font-weight: 700;
+}
+.main-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.main-container .title-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 390px;
+  width: 650px;
+  margin: 0 auto;
+  align-items: center;
+}
+.main-container .title-container h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  width: 50%;
+  margin-top: 20%;
+}
+.main-container .title-container button {
+  width: 130px;
+  height: 35px;
+  margin-top: 5%;
+  font-size: 1.1rem;
+}
+.main-container .artists-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-container .artists-container .artist {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.main-container .artists-container .artist img {
+  width: 250px;
+  height: 200px;
+}
+.main-container .artists-container .artist a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: darkslategray;
+  font-weight: 700;
+  margin: 0.2%;
+  padding: 0 1.2%;
+  margin: 4.5%;
+}
+.main-container .artists-container .artist .bio {
+  text-align: center;
+  font-size: 12.7px;
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Arimo Regular'), local('Arimo-Regular'), url(https://fonts.gstatic.com/s/arimo/v13/P5sMzZCDf9_T_20e.ttf) format('truetype');
+}
