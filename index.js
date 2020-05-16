@@ -225,10 +225,13 @@ console.log(artists[2].bio);
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(id, name) {
+function getArtistByIndex(artistArray, index) {
     
-    
-  }
+    return (`The artist at index ${index} is ${artistArray[index].name} `)
+  }   
+
+ console.log(getArtistByIndex(artists, 0));
+ 
 
  
    
@@ -243,36 +246,53 @@ function getArtistByIndex(id, name) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(/*code here*/) {
-    /* code here */
-  }
-  
+
+
+function removeArtist(artistsArray, index) {
+
+  return artists;
+}
+
+
+      console.log(removeArtist(artists.splice(0,1)));
   /**
 
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
+function lotsOfArt(artistsArray){
 
-function lotsOfArt(/* Code here */){
+  return artistsArray;
 
-    /* Code here */
+}
+console.log(lotsOfArt(artists[16]));
 
+/* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) 
+with custom information! 👩‍🎨👨‍🎨*/
+
+// id: 21
+// name: Lynda, 
+// years: 1991 - 24,
+// genre: Web Design, 
+// nationality: Your Nationality Here
+// bio: Add 1-2 sentences (or use lorem ipsum)
+
+
+let addToArray = {
+  "id": 21,
+  "name": "Lynda", 
+  "years": "1991 - 24",
+  "genre": "Web Design", 
+  "nationality": "Your Nationality Here",
+  "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
   }
+  
+  function addArtist(newArray){
+    artists.push(newArray)
+      return artists;
+  
+    }
+  console.log(addArtist(addToArray));
 
-
-/* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
-
-id: 21
-name: Your Name Here, 
-years: Your Birth Year - current day,
-genre: Web Design, 
-nationality: Your Nationality Here
-bio: Add 1-2 sentences (or use lorem ipsum) "*/
-
-function addArtist(/* Code here */){
-
-    /* Code here */
-
-  }
 
 
 
