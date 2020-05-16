@@ -122,8 +122,8 @@ header nav a:hover {
   color: white;
 }
 header nav a:nth-child(2) {
-  border-right: 2px solid white;
-  border-left: 2px solid white;
+  border-right: 2px solid brown;
+  border-left: 2px solid brown;
 }
 body,
 html,
@@ -134,8 +134,8 @@ h4 {
   font-weight: 700;
 }
 body {
-  background-color: lightskyblue;
-  background-image: url(https://images.unsplash.com/photo-1588197752875-bf4437cfbef8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80);
+  background-color: darksalmon;
+  background-image: url(https://images.unsplash.com/photo-1576158130334-6b92e79390a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,7 +145,7 @@ body {
 .main-container {
   width: 60%;
   margin: 0 auto;
-  background-color: #3CB371;
+  background-color: lightgreen;
 }
 @media (max-width: 500px) {
   .main-container {
@@ -171,10 +171,11 @@ body {
 }
 .main-container .title-container h1 {
   text-align: center;
-  color: white;
+  color: darkgreen;
   font-size: 3rem;
   width: 50%;
   margin-top: 20%;
+  font-style: italic;
 }
 .main-container .title-container button {
   width: 130px;
@@ -218,7 +219,7 @@ body {
   }
 }
 .main-container .artists-container .artist a {
-  color: white;
+  color: darkred;
   margin: 1.2%;
   text-decoration: none;
   font-size: 1.5rem;
@@ -232,6 +233,7 @@ body {
 .main-container .artists-container .artist a:hover {
   border: dashed 2px lightgreen;
   background-color: darkslategrey;
+  color: white;
 }
 .main-container .artists-container .artist .bio {
   text-align: center;

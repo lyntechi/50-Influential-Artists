@@ -226,9 +226,12 @@ console.log(artists[2].bio);
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(id, name) {
-    /* code here */
+    
+    
   }
-  
+
+ 
+   
   /**
 
 
