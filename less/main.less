@@ -1,0 +1,135 @@
+//Main Content for styling
+
+body, html, h2, h3, h4  {
+      .font-styles
+}
+
+body {
+    background-color: darksalmon;
+    // background-image: url(https://images.unsplash.com/photo-1588197752875-bf4437cfbef8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=968&q=80);
+    background-image: url(https://images.unsplash.com/photo-1576158130334-6b92e79390a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .font-styles
+}
+
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color:lightgreen;
+    
+    @media @mobile {
+       width: 100%;
+       
+       
+    }//this closes media query for .main container
+    
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 550px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 4%;
+
+    @media @mobile {
+        width: 100%;
+        
+        
+    
+    }//this closes media query for .title-container
+     
+    h1 {
+       text-align: center;
+        color:darkgreen;
+        font-size: 3rem;
+        width: 50%;
+        margin-top: 20%;
+        font-style: italic;
+    }//this closes h1
+    button {
+        .contactButton(130px,35px,5%,1.1rem);
+    }//this closes button
+   
+    
+}//this closes .title-container
+
+.artists-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+    .font-styles;
+
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }//this closes media query for .artists-container
+
+    .artist {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        @media @mobile {
+            align-items: center;
+        }//this closes media query for .artist
+
+        img {
+            width: 250px;
+            height: 200px;
+           
+            @media @mobile {
+                margin: 3%;
+            }//this closes media query for img
+        }//this closes img
+
+        a{
+         color: darkred;
+          margin: 1.2%;
+          text-decoration: none;
+          font-size: 1.5rem;
+          
+          @media @mobile {
+            text-align: center;
+            margin: 3%;
+        }//this closes media query for a
+
+
+          &:hover {
+              border: dashed 2px lightgreen;
+              background-color: darkslategrey;
+              color: white;
+
+          }
+        }//this closes a
+
+        .bio {
+            text-align: center;
+            font-size: 12.7px;
+            padding: 5%;
+            &:hover {
+                border: dashed 2px lightgreen;
+                background-color: darkslategrey;
+                color: white;
+  
+            }
+            
+        }
+
+    }//this closes artist
+
+}//this closes .artists-container
+
+}//this closes main-container
